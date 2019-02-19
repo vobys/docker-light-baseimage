@@ -1,4 +1,4 @@
-NAME = arm64v8/light-baseimage
+NAME = vobys/light-baseimage-arm64v8
 VERSION = 1.1.1
 
 .PHONY: build build-nocache test tag-latest push push-latest release git-tag-version
