@@ -1,5 +1,5 @@
-FROM debian:stretch-slim
-MAINTAINER Bertrand Gouny <bertrand.gouny@osixia.net>
+FROM arm64v8/debian:stretch-slim
+MAINTAINER Alfredo Foltran <alfoltran@gmail.com>
 
 COPY . /container
 RUN /container/build.sh
