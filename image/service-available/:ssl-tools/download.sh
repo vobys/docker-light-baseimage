@@ -15,7 +15,11 @@ if [ -n "$to_install" ]; then
   LC_ALL=C DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends $to_install
 fi
 
-LC_ALL=C DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends openssl jq golang-cfssl
+LC_ALL=C DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends openssl jq
+
+curl -o cfssl.deb -SL http://ftp.us.debian.org/debian/pool/main/g/golang-github-cloudflare-cfssl/golang-cfssl_1.2.0+git20160825.89.7fb22c8-3+b1_arm64.deb
+apt install ./cfssl.deb
+rm -f ./cfssl.deb
 
 # remove tools installed to download cfssl
 if [ -n "$to_install" ]; then
