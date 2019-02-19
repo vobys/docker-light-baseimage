@@ -1,22 +1,18 @@
-# vobys/light-baseimage
+# Debian AArch64 Port Project
 
-[![Docker Pulls](https://img.shields.io/docker/pulls/osixia/light-baseimage.svg)][hub]
-[![Docker Stars](https://img.shields.io/docker/stars/osixia/light-baseimage.svg)][hub]
-[![](https://images.microbadger.com/badges/image/osixia/light-baseimage.svg)](http://microbadger.com/images/osixia/light-baseimage "Get your own image badge on microbadger.com")
+[![](https://images.microbadger.com/badges/version/vobys/light-baseimage-arm64v8.svg)](https://microbadger.com/images/vobys/light-baseimage-arm64v8 "Get your own version badge on microbadger.com")
+[![](https://images.microbadger.com/badges/image/vobys/light-baseimage-arm64v8.svg)](https://microbadger.com/images/vobys/light-baseimage-arm64v8 "Get your own image badge on microbadger.com")
 
 [hub]: https://hub.docker.com/r/osixia/light-baseimage/
-
-Latest release: 1.1.1 (debian stretch) - 1.0.1 (debian jessie) [Changelog](CHANGELOG.md)
- | [Docker Hub](https://hub.docker.com/r/osixia/light-baseimage/) 
 
 A Debian 9 (Stretch) based docker image to build reliable image quickly. This image provide a simple opinionated solution to build multiple or single process image with minimum of layers and an optimized build.
 
 The aims of this image is to be used as a base for your own Docker images. It's base on the awesome work of: [phusion/baseimage-docker](https://github.com/phusion/baseimage-docker)
 
 Other base distribution are available:
+- [AMD64](https://github.com/osixia/docker-light-baseimage) | [Docker Hub](https://hub.docker.com/r/osixia/light-baseimage/) | [![](https://images.microbadger.com/badges/image/osixia/light-baseimage.svg)](http://microbadger.com/images/osixia/light-baseimage "Get your own image badge on microbadger.com")
 - [Alpine 3.6](https://github.com/osixia/docker-light-baseimage/tree/feature-linux-alpine) | Beta | [Docker Hub](https://hub.docker.com/r/osixia/alpine-light-baseimage/) | [![](https://images.microbadger.com/badges/image/osixia/alpine-light-baseimage.svg)](http://microbadger.com/images/osixia/alpine-light-baseimage "Get your own image badge on microbadger.com")
 - [Ubuntu 16:04](https://github.com/osixia/docker-light-baseimage/tree/ubuntu) | [Docker Hub](https://hub.docker.com/r/osixia/ubuntu-light-baseimage/) | [![](https://images.microbadger.com/badges/image/osixia/ubuntu-light-baseimage.svg)](http://microbadger.com/images/osixia/ubuntu-light-baseimage "Get your own image badge on microbadger.com")
-- [AArch64](https://github.com/vobys/docker-light-baseimage) | Beta | [Docker Hub](https://hub.docker.com/r/vobys/light-baseimage-arm64v8/) | [![](https://images.microbadger.com/badges/image/osixia/alpine-light-baseimage.svg)](http://microbadger.com/images/osixia/alpine-light-baseimage "Get your own image badge on microbadger.com")
 
 Table of Contents
 - [Contributing](#contributing)
